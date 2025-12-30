@@ -58,6 +58,14 @@ This book takes you from installation to mastery. You'll learn not just the basi
 28. [The Document Stack](chapters/28-The-Document-Stack.md)
 29. [A Complete Structured Build](chapters/29-A-Complete-Structured-Build.md)
 
+### Part VIII: Analytical Frameworks and Decision Support
+30. [Mini Labs — Hands-On Practice](chapters/30-Mini-Labs-Hands-On-Practice.md)
+31. [Information Plus Understanding](chapters/31-Information-Plus-Understanding.md)
+32. [Weaving AI with Classical Computing](chapters/32-Weaving-AI-With-Classical-Computing.md)
+33. [Program Prompts](chapters/33-Program-Prompts.md)
+34. [The EDA Analytical Framework](chapters/34-EDA-Analytical-Framework.md)
+35. [Building Decision Support Systems](chapters/35-Building-Decision-Support-Systems.md)
+
 ### Appendices
 - [A. Command Reference](chapters/Appendix-A-Command-Reference.md)
 - [B. CLAUDE.md Templates](chapters/Appendix-B-CLAUDE-md-Templates.md)
