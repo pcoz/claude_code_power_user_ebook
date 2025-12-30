@@ -19,6 +19,35 @@ This is "vibe coding"—building software by expressing intent rather than writi
 
 ---
 
+## Why AI in Applications Changes Everything
+
+For decades, software has been spectacular at one thing: **measuring**. Counting, calculating, comparing, storing. Classical computing handles quantitative work with perfect accuracy at incredible speed.
+
+But classical computing has always been terrible at **judging**. Is this customer satisfied? Is this argument persuasive? Is this opportunity worth pursuing? These are qualitative questions—they require interpretation, context, nuance. Computers couldn't answer them. They could only check whether something matched a rule that a human wrote in advance.
+
+This created what we call "the squeeze": organizations forced qualitative reality through quantitative bottlenecks. A loan officer's judgment ("this person seems reliable despite the rough patch") became a credit score formula. A hiring manager's assessment ("great culture fit, high potential") became a checklist. Rich human judgment compressed into yes/no rules.
+
+**AI changes the boundary.** AI can accept nuance directly. You can say: "This applicant's credit score is low, but look at their situation—medical bills tanked their score, they've paid everything on time since, income has doubled." AI can weigh this. It can reason about context and form a judgment.
+
+This means applications can now combine both:
+- **Classical computing** for measurement: precise calculations, reliable storage, fast retrieval
+- **AI** for judgment: interpretation, synthesis, nuanced evaluation
+
+The combination is powerful. Consider:
+
+| Traditional App | AI-Enhanced App |
+|-----------------|-----------------|
+| Shows stock price dropped 5% | Explains whether this drop is noise or signal given market context |
+| Displays customer feedback | Synthesizes sentiment patterns across thousands of reviews |
+| Lists job candidates by score | Assesses fit considering factors no checkbox captures |
+| Alerts when metric exceeds threshold | Alerts only when the deviation actually matters |
+
+This isn't about replacing human judgment. It's about building tools that support human judgment with structured analysis that was previously impossible to automate.
+
+The book teaches you to build these applications: software that measures precisely where precision matters, judges thoughtfully where judgment matters, and weaves both together with clean handoffs between the quantitative and qualitative domains.
+
+---
+
 ## What You'll Learn
 
 This book takes you from installation to mastery across three domains:
