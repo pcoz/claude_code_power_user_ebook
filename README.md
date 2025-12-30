@@ -53,31 +53,31 @@ The book teaches you to build these applications: software that measures precise
 This book takes you from installation to mastery across three domains:
 
 ### The Tool Itself
-- **Installation and authentication** — Getting Claude Code running on your machine
-- **The permission model** — Understanding what Claude can and cannot do without asking
-- **CLAUDE.md files** — Teaching Claude about your specific project
-- **Custom commands and skills** — Extending Claude's capabilities
-- **MCP servers** — Connecting Claude to databases, APIs, and external tools
-- **Hooks** — Automating actions before and after Claude's work
-- **Subagents** — Running multiple Claude instances in parallel
-- **Plugins** — Packaging and distributing your extensions
-- **The SDK** — Building your own tools powered by Claude
+- **[Installation and authentication](chapters/02-Installation-and-Authentication.md)** — Getting Claude Code running on your machine
+- **[The permission model](chapters/04-The-Permission-Model.md)** — Understanding what Claude can and cannot do without asking
+- **[CLAUDE.md files](chapters/05-CLAUDE-md-Your-Projects-Brain.md)** — Teaching Claude about your specific project
+- **[Custom commands](chapters/06-Slash-Commands-and-Custom-Commands.md)** and **[skills](chapters/12-Skills-Automatic-Expertise.md)** — Extending Claude's capabilities
+- **[MCP servers](chapters/09-MCP-Model-Context-Protocol.md)** — Connecting Claude to databases, APIs, and external tools
+- **[Hooks](chapters/10-Hooks-Automation-Triggers.md)** — Automating actions before and after Claude's work
+- **[Subagents](chapters/11-Subagents-Parallel-Intelligence.md)** — Running multiple Claude instances in parallel
+- **[Plugins](chapters/36-Writing-Claude-Code-Plugins.md)** — Packaging and distributing your extensions
+- **[The SDK](chapters/13-Headless-Mode-and-the-SDK.md)** — Building your own tools powered by Claude
 
 ### The Workflows
-- **The development loop** — The rhythm of effective vibe coding
-- **Test-driven development** — Writing tests first, letting Claude implement
-- **Debugging** — Using Claude to find and fix problems
-- **Code review** — Systematic review workflows
-- **Git worktrees** — Parallel development across branches
-- **Large codebases** — Navigation strategies that scale
-- **CI/CD integration** — Claude in your deployment pipeline
+- **[The development loop](chapters/14-The-Development-Loop.md)** — The rhythm of effective vibe coding
+- **[Test-driven development](chapters/16-Test-Driven-Development-with-Claude.md)** — Writing tests first, letting Claude implement
+- **[Debugging](chapters/17-Debugging-and-Error-Recovery.md)** — Using Claude to find and fix problems
+- **[Code review](chapters/18-Code-Review-Workflows.md)** — Systematic review workflows
+- **[Git worktrees](chapters/15-Git-Worktrees-for-Parallel-Development.md)** — Parallel development across branches
+- **[Large codebases](chapters/24-Large-Codebase-Navigation.md)** — Navigation strategies that scale
+- **[CI/CD integration](chapters/26-CICD-Integration.md)** — Claude in your deployment pipeline
 
 ### The Bigger Picture
-- **Traditional APIs + AI APIs** — Combining data sources with intelligent interpretation
-- **Qualitative meets quantitative** — When to use classical computing vs. AI
-- **Program prompts** — The insight that prompts can be complete programs
-- **Analytical frameworks** — Structured approaches to decision-making
-- **Decision support systems** — Building tools that help people think better
+- **[Traditional APIs + AI APIs](chapters/31-Information-Plus-Understanding.md)** — Combining data sources with intelligent interpretation
+- **[Qualitative meets quantitative](chapters/32-Weaving-AI-With-Classical-Computing.md)** — When to use classical computing vs. AI
+- **[Program prompts](chapters/33-Program-Prompts.md)** — The insight that prompts can be complete programs
+- **[Analytical frameworks](chapters/34-EDA-Analytical-Framework.md)** — Structured approaches to decision-making
+- **[Decision support systems](chapters/35-Building-Decision-Support-Systems.md)** — Building tools that help people think better
 
 ---
 
