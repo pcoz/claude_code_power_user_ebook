@@ -1,6 +1,47 @@
 # Chapter 16: Test-Driven Development with Claude
 
-Claude excels when it has a clear target. Tests provide that target. Write the tests first, then let Claude implement code that passes them.
+## What Is Test-Driven Development?
+
+Test-Driven Development (TDD) is a software development approach where you write tests *before* you write the code they test. It sounds backwards, but there's a method to it.
+
+The traditional approach: Write code → Hope it works → Write tests → Find bugs → Fix bugs → Repeat
+
+The TDD approach: Write a test that fails → Write just enough code to pass → Refactor → Repeat
+
+**Why write tests first?**
+
+- **Forces you to think about requirements.** Before writing code, you must decide what "correct" means. The test defines success.
+- **Produces testable code.** Code written to pass tests is inherently testable. Code written without tests often isn't.
+- **Catches bugs immediately.** If a test fails, you know exactly what broke because you just changed it.
+- **Creates documentation.** Tests show how code is supposed to behave. They're executable specifications.
+
+**The classic TDD cycle:**
+
+```
+Red → Green → Refactor
+
+1. Red:    Write a test. Run it. Watch it fail.
+2. Green:  Write the minimum code to pass the test.
+3. Refactor: Clean up the code while keeping tests green.
+```
+
+The discipline is: never write production code except to make a failing test pass.
+
+---
+
+## Why TDD Works Even Better with Claude
+
+Claude excels when it has a clear target. Tests provide that target.
+
+Without tests, you say "write a function that validates emails" and Claude guesses what you mean. With tests, you show Claude exactly what valid and invalid look like. No ambiguity.
+
+The TDD loop with Claude:
+
+```
+Write failing test → Claude writes code → Test passes → Claude refactors
+```
+
+You define success. Claude achieves it. Tests verify it.
 
 ## The TDD Loop with Claude
 

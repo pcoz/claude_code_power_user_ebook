@@ -1,6 +1,44 @@
 # Chapter 26: CI/CD Integration
 
+## What Is CI/CD?
+
+CI/CD stands for Continuous Integration and Continuous Deployment (or Delivery). It's the practice of automating the steps between writing code and shipping it to users.
+
+**Continuous Integration (CI):**
+Every time someone pushes code, automated systems:
+- Run the test suite
+- Check code quality (linting, formatting)
+- Build the application
+- Report any failures
+
+The goal: catch problems immediately, before they reach other developers or users.
+
+**Continuous Deployment (CD):**
+When code passes all checks, automated systems:
+- Deploy to staging environments
+- Run integration tests
+- Deploy to production
+- Monitor for issues
+
+The goal: ship changes quickly and reliably, without manual deployment steps.
+
+**Why it matters:**
+Without CI/CD, deployment is manual, error-prone, and infrequent. With CI/CD, you can ship multiple times per day with confidence. The automation catches what humans miss.
+
+**Common CI/CD platforms:**
+- GitHub Actions (built into GitHub)
+- GitLab CI/CD
+- Jenkins
+- CircleCI
+- Azure DevOps
+
+---
+
+## Claude Code in CI/CD Pipelines
+
 Claude Code isn't just for interactive development. It integrates into CI/CD pipelines for automated code review, documentation generation, test creation, and more.
+
+The key insight: anything you can ask Claude to do interactively, you can automate in a pipeline.
 
 ## Headless Mode in Pipelines
 
