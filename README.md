@@ -143,6 +143,7 @@ This book reflects a particular philosophy about AI-assisted development:
 13. [Headless Mode and the SDK](chapters/13-Headless-Mode-and-the-SDK.md)
 
 ### Part IV: Workflows That Work
+38. [Requirements Through Conversation](chapters/38-Requirements-Through-Conversation.md)
 14. [The Development Loop](chapters/14-The-Development-Loop.md)
 15. [Git Worktrees for Parallel Development](chapters/15-Git-Worktrees-for-Parallel-Development.md)
 16. [Test-Driven Development with Claude](chapters/16-Test-Driven-Development-with-Claude.md)
