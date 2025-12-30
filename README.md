@@ -31,6 +31,7 @@ This book takes you from installation to mastery across three domains:
 - **MCP servers** — Connecting Claude to databases, APIs, and external tools
 - **Hooks** — Automating actions before and after Claude's work
 - **Subagents** — Running multiple Claude instances in parallel
+- **Plugins** — Packaging and distributing your extensions
 - **The SDK** — Building your own tools powered by Claude
 
 ### The Workflows
@@ -48,20 +49,6 @@ This book takes you from installation to mastery across three domains:
 - **Program prompts** — The insight that prompts can be complete programs
 - **Analytical frameworks** — Structured approaches to decision-making
 - **Decision support systems** — Building tools that help people think better
-
----
-
-## The Core Insight
-
-Here's what most people miss about AI-assisted development:
-
-**The AI that helps you write code is one thing. The AI inside your application—that runs when users interact with it—is another.**
-
-Build-time AI (Claude in your terminal) helps you construct software. Runtime AI (Claude's API called from your code) powers intelligent features in the software itself.
-
-This book covers both. You'll learn to use Claude Code to build applications, and you'll learn to build applications that themselves use Claude's intelligence.
-
-The combination is powerful: you can now build software that would have required teams of specialists, and that software can do things that were previously impossible—understanding natural language, making judgments, synthesizing information.
 
 ---
 
@@ -157,6 +144,9 @@ This book reflects a particular philosophy about AI-assisted development:
 33. [Program Prompts](chapters/33-Program-Prompts.md)
 34. [The EDA Analytical Framework](chapters/34-EDA-Analytical-Framework.md)
 35. [Building Decision Support Systems](chapters/35-Building-Decision-Support-Systems.md)
+
+### Part IX: Extending Claude Code
+36. [Writing Claude Code Plugins](chapters/36-Writing-Claude-Code-Plugins.md)
 
 ### Appendices
 - [A. Command Reference](chapters/Appendix-A-Command-Reference.md)
