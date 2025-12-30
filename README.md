@@ -19,7 +19,7 @@ This is "vibe coding"—building software by expressing intent rather than writi
 
 ---
 
-## Why AI in Applications Changes Everything
+## Measuring and Judging
 
 For decades, software has been spectacular at one thing: **measuring**. Counting, calculating, comparing, storing. Classical computing handles quantitative work with perfect accuracy at incredible speed.
 
