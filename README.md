@@ -97,27 +97,27 @@ This book takes you from installation to mastery across three domains:
 
 This book reflects a particular philosophy about AI-assisted development:
 
-**Structure enables freedom.** Good documentation, clear project organization, and explicit requirements make Claude more effective, not less. The best vibe coders aren't the ones who wing it—they're the ones who set up their projects so Claude can understand them deeply.
+- **Structure enables freedom.** Good documentation, clear project organization, and explicit requirements make Claude more effective, not less. The best vibe coders aren't the ones who wing it—they're the ones who set up their projects so Claude can understand them deeply.
 
-**Iteration is the process.** Your first attempt won't be perfect. Neither will Claude's. The magic is in the loop: describe, test, refine. Each iteration teaches both you and the AI what you're actually building.
+- **Iteration is the process.** Your first attempt won't be perfect. Neither will Claude's. The magic is in the loop: describe, test, refine. Each iteration teaches both you and the AI what you're actually building.
 
-**Tools should amplify thinking.** The goal isn't to outsource thinking to AI. It's to build tools that help humans think better—decision support systems, analytical frameworks, structured approaches that AI can apply consistently.
+- **Tools should amplify thinking.** The goal isn't to outsource thinking to AI. It's to build tools that help humans think better—decision support systems, analytical frameworks, structured approaches that AI can apply consistently.
 
-**Prompts are programs.** For many qualitative tasks, a well-crafted prompt *is* the complete implementation. The prompt explains your framework; the AI applies it. Understanding this unlocks capabilities that have nothing to do with traditional code.
+- **Prompts are programs.** For many qualitative tasks, a well-crafted prompt *is* the complete implementation. The prompt explains your framework; the AI applies it. Understanding this unlocks capabilities that have nothing to do with traditional code.
 
 ---
 
 ## How to Use This Book
 
-**If you're new to Claude Code:** Start with Parts I and II. Get it installed, run through your first sessions, understand the core features.
+- **New to Claude Code?** Start with Parts I and II. Get it installed, run through your first sessions, understand the core features.
 
-**If you're already using Claude Code:** Skip to Part III (Power Features) and Part IV (Workflows). These contain the patterns that separate casual users from power users.
+- **Already using Claude Code?** Skip to Part III (Power Features) and Part IV (Workflows). These contain the patterns that separate casual users from power users.
 
-**If you want to build AI-powered applications:** Part V covers runtime AI integration—calling Claude's API from your own code.
+- **Want to build AI-powered applications?** Part V covers runtime AI integration—calling Claude's API from your own code.
 
-**If you're interested in the bigger picture:** Part VIII explores analytical frameworks, decision support systems, and the philosophical implications of what's now possible.
+- **Interested in the bigger picture?** Part VIII explores analytical frameworks, decision support systems, and the philosophical implications of what's now possible.
 
-**The Mini Labs (Chapter 30)** are designed for hands-on practice. Each takes 15-30 minutes and teaches a specific skill through doing.
+- **Want hands-on practice?** The [Mini Labs (Chapter 30)](chapters/30-Mini-Labs-Hands-On-Practice.md) take 15-30 minutes each and teach specific skills through doing.
 
 ---
 
