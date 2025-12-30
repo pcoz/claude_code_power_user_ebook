@@ -249,3 +249,9 @@ $ claude --model haiku
 ```
 
 Match the model to the moment. Your work gets done faster, and your costs stay reasonable.
+
+> **See Also:** [Subagents](11-Subagents-Parallel-Intelligence.md) for running multiple specialized agents with different models.
+
+---
+
+**Next:** [Chapter 9: MCP — Model Context Protocol](09-MCP-Model-Context-Protocol.md) — Connect Claude to databases, APIs, and external services.

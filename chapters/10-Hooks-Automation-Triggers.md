@@ -337,3 +337,12 @@ Hooks remove manual steps:
 - File protection prevents accidents
 
 Start with simple hooks (formatting), then add more as you identify repetitive steps in your workflow.
+
+> **See Also:**
+> - [Appendix D](Appendix-D-Hook-Recipes.md) for ready-to-use hook recipes
+> - [Settings and Configuration](07-Settings-and-Configuration.md) for where hooks are configured
+> - [The Permission Model](04-The-Permission-Model.md) for auto-approval patterns
+
+---
+
+**Next:** [Chapter 11: Subagents — Parallel Intelligence](11-Subagents-Parallel-Intelligence.md) — Scale beyond a single conversation with multiple Claude instances.

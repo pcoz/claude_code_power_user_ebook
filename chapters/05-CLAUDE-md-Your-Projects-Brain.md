@@ -190,3 +190,9 @@ A well-crafted CLAUDE.md means:
 - Faster onboarding for new contributors who read the file
 
 Five minutes of documentation saves hours of correction. Make CLAUDE.md work for you.
+
+> **See Also:** [Appendix B](Appendix-B-CLAUDE-md-Templates.md) contains ready-to-use CLAUDE.md templates for different project types.
+
+---
+
+**Next:** [Chapter 6: Slash Commands and Custom Commands](06-Slash-Commands-and-Custom-Commands.md) — Create shortcuts for your repeated workflows.

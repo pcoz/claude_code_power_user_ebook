@@ -69,8 +69,8 @@ Keep using web chat for planning, learning, and extended discussion. The convers
 
 Most people use Claude Code at a basic level—they start a session, ask for help, approve changes, and that's it. They're missing 80% of what makes the tool powerful.
 
-Power users configure CLAUDE.md files that give Claude deep project context. They create custom slash commands for repeated workflows. They set up hooks that automatically format code or run tests. They configure MCP servers to connect Claude to external services. They use subagents to parallelize work across multiple context windows.
+Power users configure [CLAUDE.md files](05-CLAUDE-md-Your-Projects-Brain.md) that give Claude deep project context. They create [custom slash commands](06-Slash-Commands-and-Custom-Commands.md) for repeated workflows. They set up [hooks](10-Hooks-Automation-Triggers.md) that automatically format code or run tests. They configure [MCP servers](09-MCP-Model-Context-Protocol.md) to connect Claude to external services. They use [subagents](11-Subagents-Parallel-Intelligence.md) to parallelize work across multiple context windows.
 
 This book teaches you to be a power user. By the end, you'll have Claude Code configured exactly for your workflow, with automation that eliminates friction and patterns that make complex projects manageable.
 
-Let's start by getting it installed.
+Let's start by [getting it installed](02-Installation-and-Authentication.md).

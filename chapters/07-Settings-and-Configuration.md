@@ -338,3 +338,12 @@ export CLAUDE_MODEL="claude-opus-4-5-20251101"
 ```
 
 Settings are powerful but can be complex. Start simple, add configuration as you need it, and keep security settings at the user level where they can't be overridden.
+
+> **See Also:**
+> - [MCP Servers](09-MCP-Model-Context-Protocol.md) for connecting Claude to external services
+> - [Hooks](10-Hooks-Automation-Triggers.md) for automating actions before and after Claude's work
+> - [Appendix A](Appendix-A-Command-Reference.md) for complete command reference
+
+---
+
+**Next:** [Chapter 8: The Model Selector](08-The-Model-Selector.md) — Choose the right model for each task.

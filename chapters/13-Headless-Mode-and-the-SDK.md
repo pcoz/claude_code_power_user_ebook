@@ -333,3 +333,12 @@ Headless mode transforms Claude from a tool you use into a worker you deploy:
 - **Custom tools**: Build your own AI-powered utilities
 
 The patterns from interactive use translate directly to automation. Start with scripts, evolve to pipelines, build toward integrated workflows.
+
+> **See Also:**
+> - [CI/CD Integration](26-CICD-Integration.md) for pipeline workflows
+> - [Scripts and Automation](19-Scripts-and-Automation.md) for batch processing patterns
+> - [Subagents](11-Subagents-Parallel-Intelligence.md) for parallel execution
+
+---
+
+**Next:** [Chapter 14: The Development Loop](14-The-Development-Loop.md) — Master the rhythm of effective Claude Code usage.

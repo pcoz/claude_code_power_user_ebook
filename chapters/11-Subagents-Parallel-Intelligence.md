@@ -301,3 +301,12 @@ The key insight: by giving each subagent its own context window, you preserve qu
 A single agent trying to review 20 files would forget details of early files by the time it finished. Twenty subagents, each reviewing one file, maintain full context for their portion.
 
 This is how you handle large codebases with AI.
+
+> **See Also:**
+> - [Multi-Agent Orchestration](23-Multi-Agent-Orchestration.md) for advanced orchestration patterns
+> - [The Model Selector](08-The-Model-Selector.md) for choosing the right model for each subagent
+> - [Large Codebase Navigation](24-Large-Codebase-Navigation.md) for strategies at scale
+
+---
+
+**Next:** [Chapter 12: Skills — Automatic Expertise](12-Skills-Automatic-Expertise.md) — Give Claude automatic expertise that activates when relevant.

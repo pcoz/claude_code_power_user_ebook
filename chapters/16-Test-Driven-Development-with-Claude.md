@@ -329,3 +329,12 @@ Tests + Claude = Reliable development
 4. Refactor safely
 
 Claude excels at hitting targets. Tests are the target.
+
+> **See Also:**
+> - [CI/CD Integration](26-CICD-Integration.md) for running tests in pipelines
+> - [Divide and Conquer](37-Divide-and-Conquer.md) for testing isolated modules
+> - [Hooks](10-Hooks-Automation-Triggers.md) for running tests automatically after code changes
+
+---
+
+**Next:** [Chapter 17: Debugging and Error Recovery](17-Debugging-and-Error-Recovery.md) — Turn debugging from frustration into conversation.

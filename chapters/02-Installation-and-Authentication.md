@@ -152,7 +152,7 @@ After installation, Claude Code creates configuration directories:
 +-- skills/            # Personal skills
 ```
 
-We'll explore these throughout the book.
+We'll explore these in detail: [settings](07-Settings-and-Configuration.md), [CLAUDE.md](05-CLAUDE-md-Your-Projects-Brain.md), [commands](06-Slash-Commands-and-Custom-Commands.md), [subagents](11-Subagents-Parallel-Intelligence.md), and [skills](12-Skills-Automatic-Expertise.md).
 
 ## Troubleshooting
 
@@ -206,4 +206,4 @@ claude --version
 
 ## What's Next
 
-With Claude Code installed and authenticated, you're ready for your first session. Let's build something.
+With Claude Code installed and authenticated, you're ready for [your first session](03-Your-First-Session.md). Let's build something.

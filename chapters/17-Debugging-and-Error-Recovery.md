@@ -307,3 +307,12 @@ When stuck:
 8. ☐ Have you asked Claude to explain what the code does?
 
 Work through the list systematically. Most bugs reveal themselves by step 5.
+
+> **See Also:**
+> - [Divide and Conquer](37-Divide-and-Conquer.md) for breaking down complex bugs
+> - [The Development Loop](14-The-Development-Loop.md) for the recovery pattern
+> - [Subagents](11-Subagents-Parallel-Intelligence.md) for creating specialized debugging agents
+
+---
+
+**Next:** [Chapter 18: Code Review Workflows](18-Code-Review-Workflows.md) — Systematic code review with AI assistance.

@@ -210,4 +210,4 @@ If you've used ChatGPT or Claude in a browser:
 
 This is what "agentic" means in practice. Claude operates in your environment, not just in conversation.
 
-Ready for something more substantial? Let's look at how to configure Claude for your specific workflow.
+Ready for something more substantial? Next, let's understand [the permission model](04-The-Permission-Model.md) that keeps you in control, then learn how to [configure Claude for your specific workflow](05-CLAUDE-md-Your-Projects-Brain.md).

@@ -344,3 +344,8 @@ This works because:
 - Fresh context beats polluted context
 
 The loop isn't failure. It's information. The problem is too big. Make it smaller.
+
+> **See Also:**
+> - [The Development Loop](14-The-Development-Loop.md) for the overall workflow
+> - [Debugging and Error Recovery](17-Debugging-and-Error-Recovery.md) for systematic debugging approaches
+> - [Test-Driven Development](16-Test-Driven-Development-with-Claude.md) for testing isolated modules

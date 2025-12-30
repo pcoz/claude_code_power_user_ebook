@@ -203,7 +203,7 @@ Advanced users can create hooks that auto-approve certain operations:
 }
 ```
 
-See Chapter 10 for details on hooks.
+See [Chapter 10: Hooks](10-Hooks-Automation-Triggers.md) for details.
 
 ## Safety Best Practices
 
@@ -253,3 +253,7 @@ Made a mistake? Options:
 - **Checkpoints**: Claude Code creates checkpoints you can restore
 
 The permission model is your first line of defense. Git is your second.
+
+---
+
+**Next:** [Chapter 5: CLAUDE.md — Your Project's Brain](05-CLAUDE-md-Your-Projects-Brain.md) — Learn how to give Claude deep context about your project.

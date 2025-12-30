@@ -287,3 +287,12 @@ Save as docs/review-report-YYYY-MM-DD.md
 **Track findings.** Keep a log of common issues to improve your review commands over time.
 
 Code review is where Claude Code provides tremendous value. Invest in building review workflows that match your team's standards.
+
+> **See Also:**
+> - [Slash Commands](06-Slash-Commands-and-Custom-Commands.md) for creating review commands
+> - [Subagents](11-Subagents-Parallel-Intelligence.md) for parallel specialized reviews
+> - [CI/CD Integration](26-CICD-Integration.md) for automated review pipelines
+
+---
+
+**Next:** [Chapter 19: Scripts and Automation](19-Scripts-and-Automation.md) — Build reusable automation scripts.

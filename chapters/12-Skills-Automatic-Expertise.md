@@ -327,3 +327,12 @@ Over time, your skill library becomes a knowledge base:
 ```
 
 Every task benefits from relevant accumulated expertise, automatically applied. Claude doesn't just help you code—it helps you code your way.
+
+> **See Also:**
+> - [CLAUDE.md](05-CLAUDE-md-Your-Projects-Brain.md) for always-on project context
+> - [Slash Commands](06-Slash-Commands-and-Custom-Commands.md) for explicit command shortcuts
+> - [Writing Plugins](36-Writing-Claude-Code-Plugins.md) for packaging skills for distribution
+
+---
+
+**Next:** [Chapter 13: Headless Mode and the SDK](13-Headless-Mode-and-the-SDK.md) — Run Claude without interaction and build your own tools.

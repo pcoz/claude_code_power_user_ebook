@@ -411,3 +411,8 @@ The interview approach:
 6. Then build
 
 The 15 minutes spent on requirements saves hours of building the wrong thing.
+
+> **See Also:**
+> - [The Development Loop](14-The-Development-Loop.md) for what happens after requirements are clear
+> - [CLAUDE.md](05-CLAUDE-md-Your-Projects-Brain.md) for documenting what you learn
+> - [A Complete Structured Build](29-A-Complete-Structured-Build.md) for applying requirements to a full project

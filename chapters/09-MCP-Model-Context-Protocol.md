@@ -255,3 +255,12 @@ Start with:
 - One search tool (web search or docs search)
 
 Add more only when you have a specific need.
+
+> **See Also:**
+> - [Appendix C](Appendix-C-MCP-Server-Catalog.md) for a catalog of available MCP servers
+> - [Settings and Configuration](07-Settings-and-Configuration.md) for detailed MCP setup
+> - [Writing Plugins](36-Writing-Claude-Code-Plugins.md) for creating custom MCP servers
+
+---
+
+**Next:** [Chapter 10: Hooks — Automation Triggers](10-Hooks-Automation-Triggers.md) — Automate actions before and after Claude's work.

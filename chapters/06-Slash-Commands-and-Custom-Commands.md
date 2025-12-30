@@ -250,3 +250,12 @@ The best commands evolve from real usage.
 **Chain commands mentally.** You can invoke multiple commands in sequence: `/project:fix-issue 142` then `/project:generate-tests src/changed-file.ts`.
 
 Commands are multipliers. Time spent crafting good commands pays back every time you use them.
+
+> **See Also:**
+> - [Code Review Workflows](18-Code-Review-Workflows.md) for systematic review commands
+> - [Hooks](10-Hooks-Automation-Triggers.md) for triggering actions automatically
+> - [Writing Plugins](36-Writing-Claude-Code-Plugins.md) for packaging commands for distribution
+
+---
+
+**Next:** [Chapter 7: Settings and Configuration](07-Settings-and-Configuration.md) — Customize Claude Code's behavior at every level.

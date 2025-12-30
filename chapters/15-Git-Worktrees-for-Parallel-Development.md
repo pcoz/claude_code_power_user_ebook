@@ -275,3 +275,12 @@ Parallel development transforms how much you can accomplish:
 - **Parallel**: Tasks A, B, C simultaneously = 2 hours + merge time
 
 For independent features, parallel Claude sessions can 3-5x your velocity. The setup overhead pays for itself on the first use.
+
+> **See Also:**
+> - [Subagents](11-Subagents-Parallel-Intelligence.md) for simpler parallelization without separate directories
+> - [Headless Mode](13-Headless-Mode-and-the-SDK.md) for scripted parallel execution
+> - [Multi-Agent Orchestration](23-Multi-Agent-Orchestration.md) for complex parallel workflows
+
+---
+
+**Next:** [Chapter 16: Test-Driven Development with Claude](16-Test-Driven-Development-with-Claude.md) — Write tests first, let Claude implement.

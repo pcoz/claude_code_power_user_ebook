@@ -273,3 +273,12 @@ Match your rhythm to the task complexity.
 **Let Claude verify.** "Run the tests and tell me if they pass."
 
 The development loop isn't magic—it's just a faster version of how experienced developers already work. Describe, review, verify, refine. Repeat until done.
+
+> **See Also:**
+> - [Requirements Through Conversation](38-Requirements-Through-Conversation.md) for getting requirements right before building
+> - [Divide and Conquer](37-Divide-and-Conquer.md) for when you get stuck in loops
+> - [Debugging and Error Recovery](17-Debugging-and-Error-Recovery.md) for systematic debugging
+
+---
+
+**Next:** [Chapter 15: Git Worktrees for Parallel Development](15-Git-Worktrees-for-Parallel-Development.md) — Work on multiple branches simultaneously.
