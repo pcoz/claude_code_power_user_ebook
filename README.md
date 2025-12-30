@@ -148,6 +148,7 @@ This book reflects a particular philosophy about AI-assisted development:
 16. [Test-Driven Development with Claude](chapters/16-Test-Driven-Development-with-Claude.md)
 17. [Debugging and Error Recovery](chapters/17-Debugging-and-Error-Recovery.md)
 18. [Code Review Workflows](chapters/18-Code-Review-Workflows.md)
+37. [Divide and Conquer](chapters/37-Divide-and-Conquer.md)
 
 ### Part V: Building Real Software
 19. [Scripts and Automation](chapters/19-Scripts-and-Automation.md)
