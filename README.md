@@ -64,15 +64,18 @@ This book takes you from installation to mastery across three domains:
 - **[The SDK](chapters/13-Headless-Mode-and-the-SDK.md)** — Building your own tools powered by Claude
 
 ### The Workflows
+- **[Requirements through conversation](chapters/38-Requirements-Through-Conversation.md)** — Getting Claude to interview you for better specs
 - **[The development loop](chapters/14-The-Development-Loop.md)** — The rhythm of effective vibe coding
 - **[Test-driven development](chapters/16-Test-Driven-Development-with-Claude.md)** — Writing tests first, letting Claude implement
 - **[Debugging](chapters/17-Debugging-and-Error-Recovery.md)** — Using Claude to find and fix problems
+- **[Divide and conquer](chapters/37-Divide-and-Conquer.md)** — Breaking down problems when Claude gets stuck
 - **[Code review](chapters/18-Code-Review-Workflows.md)** — Systematic review workflows
 - **[Git worktrees](chapters/15-Git-Worktrees-for-Parallel-Development.md)** — Parallel development across branches
 - **[Large codebases](chapters/24-Large-Codebase-Navigation.md)** — Navigation strategies that scale
 - **[CI/CD integration](chapters/26-CICD-Integration.md)** — Claude in your deployment pipeline
 
 ### The Bigger Picture
+- **[Mini labs](chapters/30-Mini-Labs-Hands-On-Practice.md)** — Hands-on exercises to build your skills
 - **[Traditional APIs + AI APIs](chapters/31-Information-Plus-Understanding.md)** — Combining data sources with intelligent interpretation
 - **[Qualitative meets quantitative](chapters/32-Weaving-AI-With-Classical-Computing.md)** — When to use classical computing vs. AI
 - **[Program prompts](chapters/33-Program-Prompts.md)** — The insight that prompts can be complete programs
