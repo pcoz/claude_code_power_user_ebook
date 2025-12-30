@@ -4,9 +4,14 @@
 
 Test-Driven Development (TDD) is a software development approach where you write tests *before* you write the code they test. It sounds backwards, but there's a method to it.
 
-The traditional approach: Write code → Hope it works → Write tests → Find bugs → Fix bugs → Repeat
-
-The TDD approach: Write a test that fails → Write just enough code to pass → Refactor → Repeat
+| Traditional Approach | TDD Approach |
+|---------------------|--------------|
+| Write code | Write a failing test |
+| Hope it works | Write just enough code to pass |
+| Write tests | Refactor |
+| Find bugs | Repeat |
+| Fix bugs | |
+| Repeat | |
 
 **Why write tests first?**
 
@@ -18,14 +23,20 @@ The TDD approach: Write a test that fails → Write just enough code to pass →
 **The classic TDD cycle:**
 
 ```
-Red → Green → Refactor
-
-1. Red:    Write a test. Run it. Watch it fail.
-2. Green:  Write the minimum code to pass the test.
-3. Refactor: Clean up the code while keeping tests green.
+    ┌─────────────────────────────────┐
+    │                                 │
+    ▼                                 │
+┌─────────┐    ┌─────────┐    ┌────────────┐
+│   RED   │───▶│  GREEN  │───▶│  REFACTOR  │
+│  (fail) │    │  (pass) │    │   (clean)  │
+└─────────┘    └─────────┘    └────────────┘
 ```
 
-The discipline is: never write production code except to make a failing test pass.
+1. **RED:** Write a test. Run it. Watch it fail.
+2. **GREEN:** Write the minimum code to pass the test.
+3. **REFACTOR:** Clean up the code while keeping tests green.
+
+> **The discipline:** Never write production code except to make a failing test pass.
 
 ---
 
@@ -35,27 +46,14 @@ Claude excels when it has a clear target. Tests provide that target.
 
 Without tests, you say "write a function that validates emails" and Claude guesses what you mean. With tests, you show Claude exactly what valid and invalid look like. No ambiguity.
 
-The TDD loop with Claude:
+| You | Claude |
+|-----|--------|
+| Write failing test | — |
+| — | Writes code to pass |
+| Verify tests pass | — |
+| — | Refactors if needed |
 
-```
-Write failing test → Claude writes code → Test passes → Claude refactors
-```
-
-You define success. Claude achieves it. Tests verify it.
-
-## The TDD Loop with Claude
-
-Traditional TDD:
-```
-Write failing test → Write code → Test passes → Refactor
-```
-
-Claude-assisted TDD:
-```
-Write failing test → Claude writes code → Test passes → Claude refactors
-```
-
-The key insight: Claude performs best when it can iterate against a concrete target.
+> **The key insight:** Claude performs best when it can iterate against a concrete target. You define success. Claude achieves it. Tests verify it.
 
 ## Starting with Tests
 

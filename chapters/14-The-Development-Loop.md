@@ -5,14 +5,22 @@ Effective Claude Code usage follows a rhythm. Understanding this loop helps you 
 ## The Core Loop
 
 ```
-Describe → Review → Approve → Verify → Refine
+┌──────────────────────────────────────────────────────────┐
+│                                                          │
+│   DESCRIBE ──▶ REVIEW ──▶ APPROVE ──▶ VERIFY ──▶ REFINE  │
+│       ▲                                            │     │
+│       └────────────────────────────────────────────┘     │
+│                                                          │
+└──────────────────────────────────────────────────────────┘
 ```
 
-1. **Describe** what you want
-2. **Review** Claude's proposal
-3. **Approve** (or reject/modify)
-4. **Verify** the result works
-5. **Refine** as needed
+| Step | What You Do |
+|------|-------------|
+| **Describe** | Tell Claude what you want |
+| **Review** | Read Claude's proposal |
+| **Approve** | Accept, reject, or modify |
+| **Verify** | Test that it works |
+| **Refine** | Adjust as needed |
 
 This loop repeats until the task is complete.
 

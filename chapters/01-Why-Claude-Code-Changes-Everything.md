@@ -28,11 +28,14 @@ The information asymmetry problem disappears too. Claude sees your file structur
 
 You will hear Claude Code called an "agentic" tool. Here is what it actually means:
 
-A traditional AI assistant responds to messages. You ask, it answers. The interaction is purely conversational.
+| Traditional AI | Agentic AI |
+|----------------|------------|
+| Responds to messages | Takes actions |
+| You ask, it answers | Can modify files, run commands |
+| Purely conversational | Operates in the world |
+| You copy/paste everything | Interacts with your system directly |
 
-An agentic AI can take actions. It can modify files, run commands, interact with your system. It operates in the world, not just in conversation.
-
-But—and this is important—Claude Code is agentic with supervision. It proposes actions and asks your permission before executing them. You see what it wants to do. You approve or reject. You remain in control.
+> **But—and this is important—Claude Code is agentic with supervision.** It proposes actions and asks your permission before executing them. You see what it wants to do. You approve or reject. You remain in control.
 
 This supervision model is what makes agentic tools safe to use. The AI can do powerful things, but only with your explicit approval at each step.
 
