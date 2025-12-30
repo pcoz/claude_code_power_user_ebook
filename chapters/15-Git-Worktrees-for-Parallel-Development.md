@@ -36,10 +36,10 @@ git worktree add ../my-project-bugfix fix/critical-bug
 Now you have:
 ```
 ~/projects/
-├── my-project/           # main branch
-├── my-project-feature-a/ # feature/feature-a branch
-├── my-project-feature-b/ # feature/feature-b branch
-└── my-project-bugfix/    # fix/critical-bug branch
++-- my-project/           # main branch
++-- my-project-feature-a/ # feature/feature-a branch
++-- my-project-feature-b/ # feature/feature-b branch
++-- my-project-bugfix/    # fix/critical-bug branch
 ```
 
 ## Running Parallel Claude Sessions

@@ -134,22 +134,22 @@ This bypasses Claude's processing for quick operations.
 
 ```
 ~/.claude/
-├── settings.json      # Global settings
-├── CLAUDE.md          # Global context
-├── commands/          # Personal commands
-├── agents/            # Personal subagents
-└── skills/            # Personal skills
++-- settings.json      # Global settings
++-- CLAUDE.md          # Global context
++-- commands/          # Personal commands
++-- agents/            # Personal subagents
++-- skills/            # Personal skills
 ```
 
 ### Project-Level
 
 ```
 .claude/
-├── settings.json      # Project settings (git-tracked)
-├── settings.local.json # Local settings (git-ignored)
-├── commands/          # Project commands
-├── agents/            # Project subagents
-└── skills/            # Project skills
++-- settings.json      # Project settings (git-tracked)
++-- settings.local.json # Local settings (git-ignored)
++-- commands/          # Project commands
++-- agents/            # Project subagents
++-- skills/            # Project skills
 
 CLAUDE.md              # Project context (root directory)
 .mcp.json              # MCP server config

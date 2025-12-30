@@ -2,72 +2,96 @@
 
 ## From Terminal to Mastery
 
-*Based on concepts from Vibe Coding with Structure and Style*  
+*Based on concepts from Vibe Coding with Structure and Style*
 *by Edward Chalk*
+
+---
+
+## How This Book Is Organized
+
+This book serves two audiences:
+
+- **(Everyone)** — No programming knowledge required
+- **(Programmers)** — Assumes programming experience
+
+Each chapter is marked so you can read what's relevant to your background.
 
 ---
 
 ## Table of Contents
 
-### Part I: Getting Started
-1. Why Claude Code Changes Everything
-2. Installation and Authentication
-3. Your First Session
-4. The Permission Model
+### Part I: Getting Started (Everyone)
+1. Why Claude Code Changes Everything — (Everyone)
+2. Installation and Authentication — (Everyone)
+3. Your First Session — (Everyone)
+4. The Permission Model — (Everyone)
 
-### Part II: Core Features
-5. CLAUDE.md — Your Project's Brain
-6. Slash Commands and Custom Commands
-7. Settings and Configuration
-8. The Model Selector
+### Part II: Core Features (Everyone)
+5. CLAUDE.md — Your Project's Brain — (Everyone)
+6. Slash Commands and Custom Commands — (Everyone)
+7. Settings and Configuration — (Everyone)
+8. The Model Selector — (Everyone)
 
-### Part III: Power Features
-9. MCP — Model Context Protocol
-10. Hooks — Automation Triggers
-11. Subagents — Parallel Intelligence
-12. Skills — Automatic Expertise
-13. Headless Mode and the SDK
+### Part III: Power Features (Mixed)
+9. MCP — Model Context Protocol — (Everyone)
+10. Hooks — Automation Triggers — (Programmers)
+11. Subagents — Parallel Intelligence — (Everyone)
+12. Skills — Automatic Expertise — (Everyone)
+13. Headless Mode and the SDK — (Programmers)
 
-### Part IV: Workflows That Work
-14. The Development Loop
-15. Git Worktrees for Parallel Development
-16. Test-Driven Development with Claude
-17. Debugging and Error Recovery
-18. Code Review Workflows
+### Part IV: Developer Workflows (Programmers)
+14. The Development Loop — (Programmers)
+15. Git Worktrees for Parallel Development — (Programmers)
+16. Test-Driven Development with Claude — (Programmers)
+17. Debugging and Error Recovery — (Programmers)
+18. Code Review Workflows — (Programmers)
+37. Divide and Conquer — (Everyone)
+38. Requirements Through Conversation — (Everyone)
 
-### Part V: Building Real Software
-19. Scripts and Automation
-20. Full-Stack Applications
-21. API Integration Patterns
-22. AI-Powered Features at Runtime
+### Part V: Building Software (Programmers)
+19. Scripts and Automation — (Programmers)
+20. Full-Stack Applications — (Programmers)
+21. API Integration Patterns — (Programmers)
+22. AI-Powered Features at Runtime — (Programmers)
 
-### Part VI: Advanced Patterns
-23. Multi-Agent Orchestration
-24. Large Codebase Navigation
-25. Migration and Refactoring at Scale
-26. CI/CD Integration
+### Part VI: Advanced Development Patterns (Programmers)
+23. Multi-Agent Orchestration — (Programmers)
+24. Large Codebase Navigation — (Programmers)
+25. Migration and Refactoring at Scale — (Programmers)
+26. CI/CD Integration — (Programmers)
 
-### Part VII: Working with Structure
-27. When You Need Documentation
-28. The Document Stack
-29. A Complete Structured Build
+### Part VII: Working with Structure (Everyone)
+27. When You Need Documentation — (Everyone)
+28. The Document Stack — (Everyone)
+29. A Complete Structured Build — (Everyone)
+
+### Part VIII: Analytical Frameworks and Decision Support (Everyone)
+30. Mini Labs — Hands-On Practice — (Mixed)
+31. Information Plus Understanding — (Everyone)
+32. Weaving AI with Classical Computing — (Everyone)
+33. Program Prompts — (Everyone)
+34. The EDA Analytical Framework — (Everyone)
+35. Building Decision Support Systems — (Everyone)
+
+### Part IX: Extending Claude Code (Programmers)
+36. Writing Claude Code Plugins — (Programmers)
 
 ### Appendices
-A. Command Reference
-B. CLAUDE.md Templates
-C. MCP Server Catalog
-D. Hook Recipes
-E. Troubleshooting
+A. Command Reference — (Everyone)
+B. CLAUDE.md Templates — (Everyone)
+C. MCP Server Catalog — (Everyone)
+D. Hook Recipes — (Programmers)
+E. Troubleshooting — (Everyone)
 
 ---
 
-## About This Book
+## Reading Paths
 
-Claude Code is Anthropic's agentic coding tool that lives in your terminal. It understands your codebase, executes commands, modifies files, and helps you build software faster through natural language.
+### For Non-Programmers
+Chapters 1-9, 11-12, 27-35, 37-38
 
-This book takes you from installation to mastery. You'll learn not just the basics, but the power features that separate casual users from power users: custom commands, MCP integrations, hooks for automation, subagents for parallel work, and the SDK for building your own tools.
-
-Whether you're automating tedious tasks, building full-stack applications, or orchestrating multi-agent workflows, this book gives you the patterns that work.
+### For Programmers
+All chapters
 
 ---
 

@@ -277,10 +277,10 @@ For debugging across multiple services:
 
 ```
 Main Agent
-├── Subagent A (focused task)
-├── Subagent B (focused task)  
-├── Subagent C (focused task)
-└── Synthesis (combine results)
++-- Subagent A (focused task)
++-- Subagent B (focused task)
++-- Subagent C (focused task)
++-- Synthesis (combine results)
 ```
 
 The main agent:

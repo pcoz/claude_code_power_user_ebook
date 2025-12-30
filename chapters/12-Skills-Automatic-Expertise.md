@@ -24,11 +24,11 @@ Each skill is a directory containing a `SKILL.md` file and optional supporting f
 
 ```
 .claude/skills/
-└── testing/
-    ├── SKILL.md
-    ├── examples/
-    │   └── test-example.ts
-    └── patterns.md
++-- testing/
+    +-- SKILL.md
+    +-- examples/
+    |   +-- test-example.ts
+    +-- patterns.md
 ```
 
 ## Basic Skill Definition
@@ -239,10 +239,10 @@ Skills can include supporting files:
 
 ```
 .claude/skills/database/
-├── SKILL.md
-├── migrations-guide.md
-├── query-patterns.sql
-└── schema-conventions.md
++-- SKILL.md
++-- migrations-guide.md
++-- query-patterns.sql
++-- schema-conventions.md
 ```
 
 Reference them in SKILL.md:
@@ -316,14 +316,14 @@ Over time, your skill library becomes a knowledge base:
 
 ```
 .claude/skills/
-├── code-style/
-├── testing/
-├── api-design/
-├── git-workflow/
-├── nextjs/
-├── database/
-├── error-handling/
-└── security/
++-- code-style/
++-- testing/
++-- api-design/
++-- git-workflow/
++-- nextjs/
++-- database/
++-- error-handling/
++-- security/
 ```
 
 Every task benefits from relevant accumulated expertise, automatically applied. Claude doesn't just help you code—it helps you code your way.

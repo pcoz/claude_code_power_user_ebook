@@ -8,10 +8,10 @@ Instead of one agent doing everything:
 
 ```
 Main Agent
-├── Research Agent → Gathers information
-├── Implementation Agent → Writes code
-├── Review Agent → Checks quality
-└── Test Agent → Verifies correctness
++-- Research Agent --> Gathers information
++-- Implementation Agent --> Writes code
++-- Review Agent --> Checks quality
++-- Test Agent --> Verifies correctness
 ```
 
 Each agent has its own context window, specialized expertise, and focused task.
@@ -250,23 +250,24 @@ Claude creates as many subagents as needed.
 
 ### Linear Pipeline
 ```
-Agent A → Agent B → Agent C → Result
+Agent A --> Agent B --> Agent C --> Result
 ```
 Each agent's output feeds the next.
 
 ### Fan-Out Fan-In
 ```
-        ┌→ Agent B ─┐
-Agent A ├→ Agent C ─┼→ Agent E
-        └→ Agent D ─┘
+          +--> Agent B --+
+Agent A --+--> Agent C --+--> Agent E
+          +--> Agent D --+
 ```
 One agent's work is parallelized, then synthesized.
 
 ### Iterative Pipeline
 ```
-Agent A ← feedback ← Agent B
-    ↓                   ↑
-  output → evaluate → improve
+Agent A <-- feedback <-- Agent B
+    |                       ^
+    v                       |
+  output --> evaluate --> improve
 ```
 Agents iterate until quality threshold is met.
 

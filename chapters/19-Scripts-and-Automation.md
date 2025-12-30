@@ -217,21 +217,21 @@ Over time, build a collection:
 
 ```
 ~/scripts/
-├── file-utils/
-│   ├── batch-rename.py
-│   ├── find-duplicates.py
-│   └── organize-downloads.py
-├── dev-tools/
-│   ├── project-setup.py
-│   ├── cleanup-artifacts.py
-│   └── generate-report.py
-├── data-processing/
-│   ├── csv-filter.py
-│   ├── json-transform.py
-│   └── log-analyzer.py
-└── web/
-    ├── scrape-links.py
-    └── api-fetch.py
++-- file-utils/
+|   +-- batch-rename.py
+|   +-- find-duplicates.py
+|   +-- organize-downloads.py
++-- dev-tools/
+|   +-- project-setup.py
+|   +-- cleanup-artifacts.py
+|   +-- generate-report.py
++-- data-processing/
+|   +-- csv-filter.py
+|   +-- json-transform.py
+|   +-- log-analyzer.py
++-- web/
+    +-- scrape-links.py
+    +-- api-fetch.py
 ```
 
 Each script is:

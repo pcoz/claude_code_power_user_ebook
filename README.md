@@ -83,13 +83,37 @@ This book takes you from installation to mastery across three domains:
 
 ## Who This Book Is For
 
-**Developers** who want to build faster without sacrificing quality.
+This book serves two distinct audiences, and it's designed so each can read what's relevant to them:
 
-**Non-programmers** who have ideas and want to build them. Vibe coding makes software development accessible to anyone who can describe what they want clearly.
+### For Everyone (No Programming Required)
 
-**Technical leaders** evaluating how AI changes software development practices.
+If you want to use Claude Code to automate tasks, process documents, analyze data, or build simple tools—you don't need to be a programmer. Parts I, II, and VIII of this book are written for you. They cover:
 
-**Anyone** who wants to understand what's now possible when the cost of turning ideas into working software approaches zero.
+- Installing and using Claude Code
+- Understanding how it works
+- Building scripts and automation through natural language
+- Using AI for analysis, decision support, and document processing
+- The conceptual frameworks that make AI-assisted work effective
+
+### For Programmers
+
+Parts IV, V, and VI are explicitly technical. They assume familiarity with programming concepts like functions, tests, APIs, version control, and CI/CD pipelines. These chapters teach you how to:
+
+- Integrate Claude into professional development workflows
+- Write tests first and let Claude implement (TDD)
+- Conduct systematic code reviews
+- Build full-stack applications
+- Navigate large codebases
+- Set up automated pipelines
+
+### The Chapter Guide
+
+Each chapter in the Table of Contents below is marked:
+
+- **(Everyone)** — No programming knowledge required
+- **(Programmers)** — Assumes programming experience
+
+Feel free to skip chapters that don't match your background. The book is designed for selective reading.
 
 ---
 
@@ -109,13 +133,31 @@ This book reflects a particular philosophy about AI-assisted development:
 
 ## How to Use This Book
 
-- **New to Claude Code?** Start with Parts I and II. Get it installed, run through your first sessions, understand the core features.
+### If You're Not a Programmer
 
-- **Already using Claude Code?** Skip to Part III (Power Features) and Part IV (Workflows). These contain the patterns that separate casual users from power users.
+Start with **Parts I and II** to get Claude Code installed and understand the basics. Then jump to **Part VII** (Working with Structure) and **Part VIII** (Analytical Frameworks) for the conceptual tools that make AI-assisted work effective.
+
+Skip Parts IV, V, and VI—they're written for programmers and assume knowledge you don't need.
+
+**Your reading path:** Chapters 1-9, 11-12, 27-35, 37-38
+
+### If You Are a Programmer
+
+Read everything. The book builds from basics to advanced patterns:
+
+- **Parts I-II:** Foundation (fast if you're technical)
+- **Part III:** Power features that multiply your effectiveness
+- **Parts IV-VI:** Developer workflows, software building, advanced patterns
+- **Part VII-VIII:** Structure and analytical frameworks (valuable for anyone)
+- **Part IX:** Extending Claude Code with your own plugins
+
+### Quick Paths
+
+- **New to Claude Code?** Start with Parts I and II. Get it installed, run through your first sessions, understand the core features.
 
 - **Want to build AI-powered applications?** Part V covers runtime AI integration—calling Claude's API from your own code.
 
-- **Interested in the bigger picture?** Part VIII explores analytical frameworks, decision support systems, and the philosophical implications of what's now possible.
+- **Interested in analytical frameworks?** Part VIII explores decision support systems and the conceptual foundations of AI-assisted work.
 
 - **Want hands-on practice?** The [Mini Labs (Chapter 30)](chapters/30-Mini-Labs-Hands-On-Practice.md) take 15-30 minutes each and teach specific skills through doing.
 
@@ -123,68 +165,68 @@ This book reflects a particular philosophy about AI-assisted development:
 
 ## Table of Contents
 
-### Part I: Getting Started
-1. [Why Claude Code Changes Everything](chapters/01-Why-Claude-Code-Changes-Everything.md)
-2. [Installation and Authentication](chapters/02-Installation-and-Authentication.md)
-3. [Your First Session](chapters/03-Your-First-Session.md)
-4. [The Permission Model](chapters/04-The-Permission-Model.md)
+### Part I: Getting Started (Everyone)
+1. [Why Claude Code Changes Everything](chapters/01-Why-Claude-Code-Changes-Everything.md) — (Everyone)
+2. [Installation and Authentication](chapters/02-Installation-and-Authentication.md) — (Everyone)
+3. [Your First Session](chapters/03-Your-First-Session.md) — (Everyone)
+4. [The Permission Model](chapters/04-The-Permission-Model.md) — (Everyone)
 
-### Part II: Core Features
-5. [CLAUDE.md — Your Project's Brain](chapters/05-CLAUDE-md-Your-Projects-Brain.md)
-6. [Slash Commands and Custom Commands](chapters/06-Slash-Commands-and-Custom-Commands.md)
-7. [Settings and Configuration](chapters/07-Settings-and-Configuration.md)
-8. [The Model Selector](chapters/08-The-Model-Selector.md)
+### Part II: Core Features (Everyone)
+5. [CLAUDE.md — Your Project's Brain](chapters/05-CLAUDE-md-Your-Projects-Brain.md) — (Everyone)
+6. [Slash Commands and Custom Commands](chapters/06-Slash-Commands-and-Custom-Commands.md) — (Everyone)
+7. [Settings and Configuration](chapters/07-Settings-and-Configuration.md) — (Everyone)
+8. [The Model Selector](chapters/08-The-Model-Selector.md) — (Everyone)
 
-### Part III: Power Features
-9. [MCP — Model Context Protocol](chapters/09-MCP-Model-Context-Protocol.md)
-10. [Hooks — Automation Triggers](chapters/10-Hooks-Automation-Triggers.md)
-11. [Subagents — Parallel Intelligence](chapters/11-Subagents-Parallel-Intelligence.md)
-12. [Skills — Automatic Expertise](chapters/12-Skills-Automatic-Expertise.md)
-13. [Headless Mode and the SDK](chapters/13-Headless-Mode-and-the-SDK.md)
+### Part III: Power Features (Mixed)
+9. [MCP — Model Context Protocol](chapters/09-MCP-Model-Context-Protocol.md) — (Everyone)
+10. [Hooks — Automation Triggers](chapters/10-Hooks-Automation-Triggers.md) — (Programmers)
+11. [Subagents — Parallel Intelligence](chapters/11-Subagents-Parallel-Intelligence.md) — (Everyone)
+12. [Skills — Automatic Expertise](chapters/12-Skills-Automatic-Expertise.md) — (Everyone)
+13. [Headless Mode and the SDK](chapters/13-Headless-Mode-and-the-SDK.md) — (Programmers)
 
-### Part IV: Workflows That Work
-38. [Requirements Through Conversation](chapters/38-Requirements-Through-Conversation.md)
-14. [The Development Loop](chapters/14-The-Development-Loop.md)
-15. [Git Worktrees for Parallel Development](chapters/15-Git-Worktrees-for-Parallel-Development.md)
-16. [Test-Driven Development with Claude](chapters/16-Test-Driven-Development-with-Claude.md)
-17. [Debugging and Error Recovery](chapters/17-Debugging-and-Error-Recovery.md)
-18. [Code Review Workflows](chapters/18-Code-Review-Workflows.md)
-37. [Divide and Conquer](chapters/37-Divide-and-Conquer.md)
+### Part IV: Developer Workflows (Programmers)
+14. [The Development Loop](chapters/14-The-Development-Loop.md) — (Programmers)
+15. [Git Worktrees for Parallel Development](chapters/15-Git-Worktrees-for-Parallel-Development.md) — (Programmers)
+16. [Test-Driven Development with Claude](chapters/16-Test-Driven-Development-with-Claude.md) — (Programmers)
+17. [Debugging and Error Recovery](chapters/17-Debugging-and-Error-Recovery.md) — (Programmers)
+18. [Code Review Workflows](chapters/18-Code-Review-Workflows.md) — (Programmers)
+37. [Divide and Conquer](chapters/37-Divide-and-Conquer.md) — (Everyone)
+38. [Requirements Through Conversation](chapters/38-Requirements-Through-Conversation.md) — (Everyone)
 
-### Part V: Building Real Software
-19. [Scripts and Automation](chapters/19-Scripts-and-Automation.md)
-20. [Full-Stack Applications](chapters/20-Full-Stack-Applications.md)
-21. [API Integration Patterns](chapters/21-API-Integration-Patterns.md)
-22. [AI-Powered Features at Runtime](chapters/22-AI-Powered-Features-at-Runtime.md)
+### Part V: Building Software (Programmers)
+19. [Scripts and Automation](chapters/19-Scripts-and-Automation.md) — (Programmers)
+20. [Full-Stack Applications](chapters/20-Full-Stack-Applications.md) — (Programmers)
+21. [API Integration Patterns](chapters/21-API-Integration-Patterns.md) — (Programmers)
+22. [AI-Powered Features at Runtime](chapters/22-AI-Powered-Features-at-Runtime.md) — (Programmers)
 
-### Part VI: Advanced Patterns
-23. [Multi-Agent Orchestration](chapters/23-Multi-Agent-Orchestration.md)
-24. [Large Codebase Navigation](chapters/24-Large-Codebase-Navigation.md)
-25. [Migration and Refactoring at Scale](chapters/25-Migration-and-Refactoring-at-Scale.md)
-26. [CI/CD Integration](chapters/26-CICD-Integration.md)
+### Part VI: Advanced Development Patterns (Programmers)
+23. [Multi-Agent Orchestration](chapters/23-Multi-Agent-Orchestration.md) — (Programmers)
+24. [Large Codebase Navigation](chapters/24-Large-Codebase-Navigation.md) — (Programmers)
+25. [Migration and Refactoring at Scale](chapters/25-Migration-and-Refactoring-at-Scale.md) — (Programmers)
+26. [CI/CD Integration](chapters/26-CICD-Integration.md) — (Programmers)
 
-### Part VII: Working with Structure
-27. [When You Need Documentation](chapters/27-When-You-Need-Documentation.md)
-28. [The Document Stack](chapters/28-The-Document-Stack.md)
-29. [A Complete Structured Build](chapters/29-A-Complete-Structured-Build.md)
+### Part VII: Working with Structure (Everyone)
+27. [When You Need Documentation](chapters/27-When-You-Need-Documentation.md) — (Everyone)
+28. [The Document Stack](chapters/28-The-Document-Stack.md) — (Everyone)
+29. [A Complete Structured Build](chapters/29-A-Complete-Structured-Build.md) — (Everyone)
 
-### Part VIII: Analytical Frameworks and Decision Support
-30. [Mini Labs — Hands-On Practice](chapters/30-Mini-Labs-Hands-On-Practice.md)
-31. [Information Plus Understanding](chapters/31-Information-Plus-Understanding.md)
-32. [Weaving AI with Classical Computing](chapters/32-Weaving-AI-With-Classical-Computing.md)
-33. [Program Prompts](chapters/33-Program-Prompts.md)
-34. [The EDA Analytical Framework](chapters/34-EDA-Analytical-Framework.md)
-35. [Building Decision Support Systems](chapters/35-Building-Decision-Support-Systems.md)
+### Part VIII: Analytical Frameworks and Decision Support (Everyone)
+30. [Mini Labs — Hands-On Practice](chapters/30-Mini-Labs-Hands-On-Practice.md) — (Mixed)
+31. [Information Plus Understanding](chapters/31-Information-Plus-Understanding.md) — (Everyone)
+32. [Weaving AI with Classical Computing](chapters/32-Weaving-AI-With-Classical-Computing.md) — (Everyone)
+33. [Program Prompts](chapters/33-Program-Prompts.md) — (Everyone)
+34. [The EDA Analytical Framework](chapters/34-EDA-Analytical-Framework.md) — (Everyone)
+35. [Building Decision Support Systems](chapters/35-Building-Decision-Support-Systems.md) — (Everyone)
 
-### Part IX: Extending Claude Code
-36. [Writing Claude Code Plugins](chapters/36-Writing-Claude-Code-Plugins.md)
+### Part IX: Extending Claude Code (Programmers)
+36. [Writing Claude Code Plugins](chapters/36-Writing-Claude-Code-Plugins.md) — (Programmers)
 
 ### Appendices
-- [A. Command Reference](chapters/Appendix-A-Command-Reference.md)
-- [B. CLAUDE.md Templates](chapters/Appendix-B-CLAUDE-md-Templates.md)
-- [C. MCP Server Catalog](chapters/Appendix-C-MCP-Server-Catalog.md)
-- [D. Hook Recipes](chapters/Appendix-D-Hook-Recipes.md)
-- [E. Troubleshooting](chapters/Appendix-E-Troubleshooting.md)
+- [A. Command Reference](chapters/Appendix-A-Command-Reference.md) — (Everyone)
+- [B. CLAUDE.md Templates](chapters/Appendix-B-CLAUDE-md-Templates.md) — (Everyone)
+- [C. MCP Server Catalog](chapters/Appendix-C-MCP-Server-Catalog.md) — (Everyone)
+- [D. Hook Recipes](chapters/Appendix-D-Hook-Recipes.md) — (Programmers)
+- [E. Troubleshooting](chapters/Appendix-E-Troubleshooting.md) — (Everyone)
 
 ---
 

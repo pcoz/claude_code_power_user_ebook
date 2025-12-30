@@ -183,11 +183,11 @@ For complex skills, split across files:
 
 ```
 .claude/skills/database-queries/
-├── SKILL.md              # Overview (keep under 500 lines)
-├── schema.md             # Database schema reference
-├── examples.md           # Query examples
-└── scripts/
-    └── validate-query.py # Utility script
++-- SKILL.md              # Overview (keep under 500 lines)
++-- schema.md             # Database schema reference
++-- examples.md           # Query examples
++-- scripts/
+    +-- validate-query.py # Utility script
 ```
 
 Reference supporting files from SKILL.md:
@@ -377,21 +377,21 @@ Plugins package commands, skills, hooks, and MCP servers into a distributable un
 
 ```
 my-plugin/
-├── .claude-plugin/
-│   └── plugin.json          # Required: Plugin manifest
-├── commands/                 # Slash commands
-│   ├── hello.md
-│   └── deploy.md
-├── skills/                   # Agent skills
-│   └── code-review/
-│       └── SKILL.md
-├── hooks/                    # Event hooks
-│   └── hooks.json
-├── agents/                   # Custom agents
-│   └── reviewer/
-│       └── AGENT.md
-├── .mcp.json                # MCP server configuration
-└── .lsp.json                # LSP server configuration
++-- .claude-plugin/
+|   +-- plugin.json          # Required: Plugin manifest
++-- commands/                 # Slash commands
+|   +-- hello.md
+|   +-- deploy.md
++-- skills/                   # Agent skills
+|   +-- code-review/
+|       +-- SKILL.md
++-- hooks/                    # Event hooks
+|   +-- hooks.json
++-- agents/                   # Custom agents
+|   +-- reviewer/
+|       +-- AGENT.md
++-- .mcp.json                # MCP server configuration
++-- .lsp.json                # LSP server configuration
 ```
 
 ### The Plugin Manifest

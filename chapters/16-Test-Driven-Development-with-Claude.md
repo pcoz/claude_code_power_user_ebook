@@ -23,13 +23,13 @@ Test-Driven Development (TDD) is a software development approach where you write
 **The classic TDD cycle:**
 
 ```
-    ┌─────────────────────────────────┐
-    │                                 │
-    ▼                                 │
-┌─────────┐    ┌─────────┐    ┌────────────┐
-│   RED   │───▶│  GREEN  │───▶│  REFACTOR  │
-│  (fail) │    │  (pass) │    │   (clean)  │
-└─────────┘    └─────────┘    └────────────┘
+    +----------------------------------+
+    |                                  |
+    v                                  |
++-----------+    +-----------+    +------------+
+|    RED    |--->|   GREEN   |--->|  REFACTOR  |---+
+|   (fail)  |    |   (pass)  |    |   (clean)  |
++-----------+    +-----------+    +------------+
 ```
 
 1. **RED:** Write a test. Run it. Watch it fail.

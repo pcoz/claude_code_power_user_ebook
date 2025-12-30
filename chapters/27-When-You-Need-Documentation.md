@@ -86,16 +86,16 @@ Keep documentation close to code:
 
 ```
 project/
-├── README.md           # Project overview
-├── CLAUDE.md           # AI context file
-├── docs/
-│   ├── architecture.md
-│   ├── api.md
-│   └── decisions/
-│       ├── 001-database-choice.md
-│       └── 002-auth-approach.md
-├── src/
-└── ...
++-- README.md           # Project overview
++-- CLAUDE.md           # AI context file
++-- docs/
+|   +-- architecture.md
+|   +-- api.md
+|   +-- decisions/
+|       +-- 001-database-choice.md
+|       +-- 002-auth-approach.md
++-- src/
++-- ...
 ```
 
 Documentation in the repo:

@@ -199,13 +199,13 @@ For large command libraries, use prefixes:
 
 ```
 .claude/commands/
-├── review-code.md
-├── review-security.md
-├── review-perf.md
-├── gen-tests.md
-├── gen-docs.md
-├── fix-issue.md
-├── fix-lint.md
++-- review-code.md
++-- review-security.md
++-- review-perf.md
++-- gen-tests.md
++-- gen-docs.md
++-- fix-issue.md
++-- fix-lint.md
 ```
 
 These appear as:

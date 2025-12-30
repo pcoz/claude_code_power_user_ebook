@@ -17,10 +17,10 @@ You see exactly what Claude wants to do, then approve or reject.
 I'll create a new file for the user authentication module.
 
 Create file: src/auth/login.ts
-───────────────────────────────
+-------------------------------
 import { hash, compare } from 'bcrypt';
 ...
-───────────────────────────────
+-------------------------------
 
 Allow this action? (y/n/e)
 ```

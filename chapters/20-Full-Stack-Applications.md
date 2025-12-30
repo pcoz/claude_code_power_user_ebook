@@ -142,22 +142,22 @@ A well-organized project:
 
 ```
 expense-tracker/
-├── app.py              # Main application
-├── models.py           # Database models
-├── routes/
-│   ├── expenses.py     # Expense endpoints
-│   └── auth.py         # Auth endpoints
-├── templates/
-│   ├── base.html       # Layout template
-│   ├── index.html      # Home page
-│   └── expenses.html   # Expenses page
-├── static/
-│   ├── css/
-│   │   └── style.css
-│   └── js/
-│       └── app.js
-├── requirements.txt
-└── README.md
++-- app.py              # Main application
++-- models.py           # Database models
++-- routes/
+|   +-- expenses.py     # Expense endpoints
+|   +-- auth.py         # Auth endpoints
++-- templates/
+|   +-- base.html       # Layout template
+|   +-- index.html      # Home page
+|   +-- expenses.html   # Expenses page
++-- static/
+|   +-- css/
+|   |   +-- style.css
+|   +-- js/
+|       +-- app.js
++-- requirements.txt
++-- README.md
 ```
 
 Ask Claude to organize this way:

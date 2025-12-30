@@ -42,11 +42,11 @@ One paragraph describing what this project does and why.
 ## Project Structure
 ```
 project/
-├── app.py          # Main application
-├── models.py       # Database models
-├── routes/         # API routes
-├── templates/      # HTML templates
-└── static/         # CSS/JS
++-- app.py          # Main application
++-- models.py       # Database models
++-- routes/         # API routes
++-- templates/      # HTML templates
++-- static/         # CSS/JS
 ```
 
 ## Key Decisions
@@ -115,16 +115,16 @@ Sprint 12: User Dashboard Improvements
 
 ## Architecture
 ```
-┌─────────────┐     ┌─────────────┐     ┌─────────────┐
-│   Client    │────▶│     API     │────▶│  Database   │
-│   (React)   │     │  (FastAPI)  │     │ (PostgreSQL)│
-└─────────────┘     └─────────────┘     └─────────────┘
-                           │
-                           ▼
-                    ┌─────────────┐
-                    │    Redis    │
-                    │   (Cache)   │
-                    └─────────────┘
++-------------+     +-------------+     +-------------+
+|   Client    |---->|     API     |---->|  Database   |
+|   (React)   |     |  (FastAPI)  |     | (PostgreSQL)|
++-------------+     +-------------+     +-------------+
+                           |
+                           v
+                    +-------------+
+                    |    Redis    |
+                    |   (Cache)   |
+                    +-------------+
 ```
 
 ## Code Standards

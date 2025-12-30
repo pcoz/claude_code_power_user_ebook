@@ -145,11 +145,11 @@ After installation, Claude Code creates configuration directories:
 
 ```
 ~/.claude/
-├── settings.json      # User settings
-├── CLAUDE.md          # Global instructions
-├── commands/          # Personal slash commands
-├── agents/            # Subagent definitions
-└── skills/            # Personal skills
++-- settings.json      # User settings
++-- CLAUDE.md          # Global instructions
++-- commands/          # Personal slash commands
++-- agents/            # Subagent definitions
++-- skills/            # Personal skills
 ```
 
 We'll explore these throughout the book.

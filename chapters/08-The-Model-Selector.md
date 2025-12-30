@@ -213,16 +213,16 @@ Think of it as a ladder:
 
 ```
 Problem Difficulty
-       ↑
-       │  ┌─────────┐
-  Hard │  │  Opus   │  Complex reasoning
-       │  └─────────┘
-       │  ┌─────────┐
-Medium │  │ Sonnet  │  General development
-       │  └─────────┘
-       │  ┌─────────┐
-  Easy │  │  Haiku  │  Quick tasks
-       │  └─────────┘
+       ^
+       |  +-----------+
+  Hard |  |   Opus    |  Complex reasoning
+       |  +-----------+
+       |  +-----------+
+Medium |  |  Sonnet   |  General development
+       |  +-----------+
+       |  +-----------+
+  Easy |  |   Haiku   |  Quick tasks
+       |  +-----------+
 ```
 
 Start at the bottom. Climb only when needed.

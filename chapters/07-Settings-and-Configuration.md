@@ -279,22 +279,22 @@ A well-organized Claude Code setup:
 
 ```
 ~/.claude/
-├── settings.json          # Global defaults
-├── CLAUDE.md              # Global context
-├── commands/              # Personal commands
-├── agents/                # Personal subagents
-└── skills/                # Personal skills
++-- settings.json          # Global defaults
++-- CLAUDE.md              # Global context
++-- commands/              # Personal commands
++-- agents/                # Personal subagents
++-- skills/                # Personal skills
 
 project/
-├── .claude/
-│   ├── settings.json      # Team settings (git-tracked)
-│   ├── settings.local.json # Personal overrides (git-ignored)
-│   ├── commands/          # Project commands
-│   ├── agents/            # Project subagents
-│   └── skills/            # Project skills
-├── CLAUDE.md              # Project context
-├── .mcp.json              # MCP configuration
-└── .gitignore             # Include settings.local.json
++-- .claude/
+|   +-- settings.json      # Team settings (git-tracked)
+|   +-- settings.local.json # Personal overrides (git-ignored)
+|   +-- commands/          # Project commands
+|   +-- agents/            # Project subagents
+|   +-- skills/            # Project skills
++-- CLAUDE.md              # Project context
++-- .mcp.json              # MCP configuration
++-- .gitignore             # Include settings.local.json
 ```
 
 ## Resetting Configuration

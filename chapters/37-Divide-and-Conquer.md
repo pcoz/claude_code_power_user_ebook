@@ -274,13 +274,13 @@ If Claude struggles with a module, it's still too big. Split again.
 Once you have working modules, integration follows a pattern:
 
 ```
-┌─────────────────────────────┐
-│     Orchestration Layer     │  ← Write last
-├─────────────────────────────┤
-│  Module A  │  Module B  │   │  ← Write and test first
-├─────────────────────────────┤
-│     Shared Types/Interfaces │  ← Define first
-└─────────────────────────────┘
++-----------------------------+
+|     Orchestration Layer     |  <-- Write last
++-----------------------------+
+|  Module A  |  Module B  |   |  <-- Write and test first
++-----------------------------+
+|     Shared Types/Interfaces |  <-- Define first
++-----------------------------+
 ```
 
 1. **Define interfaces first** — What data flows between modules?
