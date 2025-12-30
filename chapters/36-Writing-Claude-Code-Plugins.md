@@ -658,3 +658,13 @@ Claude Code's extension system is layered:
 Start simple: a single command in `.claude/commands/`. When you have something worth sharing, package it as a plugin.
 
 The extension system means Claude Code can be customized for any workflow, any team, any domain. Your expertise can become reusable tools that make Claude smarter for everyone who installs them.
+
+> **See Also:**
+> - [Slash Commands and Custom Commands](06-Slash-Commands-and-Custom-Commands.md) for command basics
+> - [Skills: Automatic Expertise](12-Skills-Automatic-Expertise.md) for skill fundamentals
+> - [MCP: Model Context Protocol](09-MCP-Model-Context-Protocol.md) for MCP server details
+> - [Hooks: Automation Triggers](10-Hooks-Automation-Triggers.md) for hook configuration
+
+---
+
+**Next:** [Chapter 37: Divide and Conquer](37-Divide-and-Conquer.md) — Break complex problems into manageable pieces.

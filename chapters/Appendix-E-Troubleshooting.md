@@ -312,3 +312,12 @@ When something isn't working:
 8. ☐ Are dependencies installed?
 9. ☐ Have you tried `/clear` or restarting?
 10. ☐ Can you reproduce with a minimal example?
+
+> **See Also:**
+> - [Installation and Authentication](02-Installation-and-Authentication.md) for setup issues
+> - [Debugging and Error Recovery](17-Debugging-and-Error-Recovery.md) for debugging techniques
+> - [Your First Session](03-Your-First-Session.md) for getting started
+
+---
+
+**Back to:** [Table of Contents](00-Table-of-Contents.md)

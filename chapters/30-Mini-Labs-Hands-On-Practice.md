@@ -354,3 +354,12 @@ Each lab teaches a piece:
 Combined, these skills let you build remarkably capable applications. The pattern—describe, test, refine—scales from 15-minute scripts to months-long projects.
 
 Practice the small things. Then build the big things.
+
+> **See Also:**
+> - [Scripts and Automation](19-Scripts-and-Automation.md) for building reusable scripts
+> - [API Integration Patterns](21-API-Integration-Patterns.md) for connecting to external services
+> - [AI-Powered Features at Runtime](22-AI-Powered-Features-at-Runtime.md) for adding AI to your apps
+
+---
+
+**Next:** [Chapter 31: Information Plus Understanding](31-Information-Plus-Understanding.md) — Combine data APIs with AI interpretation.

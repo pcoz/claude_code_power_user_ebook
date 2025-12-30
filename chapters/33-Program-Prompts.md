@@ -289,3 +289,12 @@ You can stop at any level. A good prompt-program is valuable even without code. 
 - Any methodology can become a prompt-program
 
 This is native qualitative programming: describing thinking so clearly that AI can apply it. Not writing code—writing concepts. The concepts are the program.
+
+> **See Also:**
+> - [EDA Analytical Framework](34-EDA-Analytical-Framework.md) for a complete analytical framework to encode
+> - [Building Decision Support Systems](35-Building-Decision-Support-Systems.md) for turning prompts into applications
+> - [Slash Commands and Custom Commands](06-Slash-Commands-and-Custom-Commands.md) for reusable prompts in Claude Code
+
+---
+
+**Next:** [Chapter 34: The EDA Analytical Framework](34-EDA-Analytical-Framework.md) — Learn a structured approach to analyzing any situation.

@@ -333,3 +333,11 @@ A production-ready configuration combining multiple hooks:
 - Use `2>/dev/null || true` to suppress errors for optional commands
 - Test hooks carefully before relying on them
 - Review hooks with `/hooks` command before approving changes
+
+> **See Also:**
+> - [Hooks: Automation Triggers](10-Hooks-Automation-Triggers.md) for hook fundamentals
+> - [Writing Claude Code Plugins](36-Writing-Claude-Code-Plugins.md) for packaging hooks as plugins
+
+---
+
+**Next:** [Appendix E: Troubleshooting](Appendix-E-Troubleshooting.md) — Solutions to common problems.

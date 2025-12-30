@@ -211,3 +211,12 @@ Where to find important code.
 ```
 
 Update it every session. It's five minutes that saves hours.
+
+> **See Also:**
+> - [When You Need Documentation](27-When-You-Need-Documentation.md) for knowing when to document
+> - [CLAUDE.md: Your Project's Brain](05-CLAUDE-md-Your-Projects-Brain.md) for detailed CLAUDE.md guidance
+> - [A Complete Structured Build](29-A-Complete-Structured-Build.md) for documentation in practice
+
+---
+
+**Next:** [Chapter 29: A Complete Structured Build](29-A-Complete-Structured-Build.md) — See everything come together in a real project.

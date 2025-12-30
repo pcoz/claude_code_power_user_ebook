@@ -184,3 +184,11 @@ MCP servers can be built in any language that supports JSON-RPC over stdin/stdou
 **Monitor costs.** Some servers (like search APIs) have usage costs.
 
 **Keep updated.** MCP servers improve frequently; update with `npm update -g`.
+
+> **See Also:**
+> - [MCP: Model Context Protocol](09-MCP-Model-Context-Protocol.md) for MCP fundamentals
+> - [Writing Claude Code Plugins](36-Writing-Claude-Code-Plugins.md) for building custom MCP servers
+
+---
+
+**Next:** [Appendix D: Hook Recipes](Appendix-D-Hook-Recipes.md) — Ready-to-use hook configurations.

@@ -416,3 +416,7 @@ The 15 minutes spent on requirements saves hours of building the wrong thing.
 > - [The Development Loop](14-The-Development-Loop.md) for what happens after requirements are clear
 > - [CLAUDE.md](05-CLAUDE-md-Your-Projects-Brain.md) for documenting what you learn
 > - [A Complete Structured Build](29-A-Complete-Structured-Build.md) for applying requirements to a full project
+
+---
+
+**Next:** [Appendix A: Command Reference](Appendix-A-Command-Reference.md) — Quick reference for all Claude Code commands.

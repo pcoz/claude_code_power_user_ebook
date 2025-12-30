@@ -349,3 +349,7 @@ The loop isn't failure. It's information. The problem is too big. Make it smalle
 > - [The Development Loop](14-The-Development-Loop.md) for the overall workflow
 > - [Debugging and Error Recovery](17-Debugging-and-Error-Recovery.md) for systematic debugging approaches
 > - [Test-Driven Development](16-Test-Driven-Development-with-Claude.md) for testing isolated modules
+
+---
+
+**Next:** [Chapter 38: Requirements Through Conversation](38-Requirements-Through-Conversation.md) — Let Claude interview you to clarify what you need.

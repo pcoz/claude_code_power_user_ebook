@@ -236,3 +236,12 @@ This combination creates applications that don't just inform but genuinely help 
 The data is available. The interpretation is available. The integration is now accessible to anyone who can describe what they want to build.
 
 What will you combine?
+
+> **See Also:**
+> - [API Integration Patterns](21-API-Integration-Patterns.md) for working with traditional APIs
+> - [AI-Powered Features at Runtime](22-AI-Powered-Features-at-Runtime.md) for adding Claude to your applications
+> - [Weaving AI with Classical Computing](32-Weaving-AI-With-Classical-Computing.md) for the architectural perspective
+
+---
+
+**Next:** [Chapter 32: Weaving AI with Classical Computing](32-Weaving-AI-With-Classical-Computing.md) — Design systems that combine AI and traditional code effectively.

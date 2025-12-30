@@ -274,3 +274,12 @@ Prompts are stored in `prompts/`:
 3. **Update regularly** — stale docs mislead
 4. **Include run commands** — always test that they work
 5. **Document decisions** — future you will thank present you
+
+> **See Also:**
+> - [CLAUDE.md: Your Project's Brain](05-CLAUDE-md-Your-Projects-Brain.md) for understanding CLAUDE.md
+> - [The Document Stack](28-The-Document-Stack.md) for the full documentation hierarchy
+> - [When You Need Documentation](27-When-You-Need-Documentation.md) for knowing when to document
+
+---
+
+**Next:** [Appendix C: MCP Server Catalog](Appendix-C-MCP-Server-Catalog.md) — Curated list of useful MCP servers.

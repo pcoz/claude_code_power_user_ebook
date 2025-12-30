@@ -235,3 +235,12 @@ mcp__github__*         # All GitHub MCP tools
 | 2 | Authentication failure |
 | 3 | Permission denied |
 | 4 | Timeout |
+
+> **See Also:**
+> - [Slash Commands and Custom Commands](06-Slash-Commands-and-Custom-Commands.md) for creating custom commands
+> - [Settings and Configuration](07-Settings-and-Configuration.md) for configuration details
+> - [Headless Mode and the SDK](13-Headless-Mode-and-the-SDK.md) for CLI automation
+
+---
+
+**Next:** [Appendix B: CLAUDE.md Templates](Appendix-B-CLAUDE-md-Templates.md) — Ready-to-use templates for your projects.

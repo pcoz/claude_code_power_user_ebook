@@ -488,3 +488,12 @@ CI/CD can generate significant API usage. Monitor and control:
 | Test generation | Coverage drop | sonnet |
 
 Match the task to the right trigger and model for efficiency.
+
+> **See Also:**
+> - [Headless Mode and the SDK](13-Headless-Mode-and-the-SDK.md) for programmatic Claude usage
+> - [Code Review Workflows](18-Code-Review-Workflows.md) for automated review patterns
+> - [Hooks](10-Hooks-Automation-Triggers.md) for local automation
+
+---
+
+**Next:** [Chapter 27: When You Need Documentation](27-When-You-Need-Documentation.md) — Know when and what to document.

@@ -239,3 +239,12 @@ Which parts don't?
 ```
 
 Large codebases require patience and strategy. You won't understand everything in one session. Build understanding incrementally, document as you go, and let Claude's search capabilities do the heavy lifting.
+
+> **See Also:**
+> - [CLAUDE.md: Your Project's Brain](05-CLAUDE-md-Your-Projects-Brain.md) for documenting codebase structure
+> - [Migration and Refactoring at Scale](25-Migration-and-Refactoring-at-Scale.md) for changing large codebases
+> - [Subagents: Parallel Intelligence](11-Subagents-Parallel-Intelligence.md) for parallel exploration
+
+---
+
+**Next:** [Chapter 25: Migration and Refactoring at Scale](25-Migration-and-Refactoring-at-Scale.md) — Safely transform large codebases.

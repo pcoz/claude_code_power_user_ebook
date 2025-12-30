@@ -285,3 +285,11 @@ At this point, consider:
 Full-stack applications are where Claude Code's ability to work across multiple files truly shines. The AI maintains coherence between frontend and backend, between database schema and API endpoints.
 
 Start simple. Add complexity only when needed. You'll be surprised how far a straightforward architecture can go.
+
+> **See Also:**
+> - [A Complete Structured Build](29-A-Complete-Structured-Build.md) for a full example
+> - [API Integration Patterns](21-API-Integration-Patterns.md) for connecting to external services
+
+---
+
+**Next:** [Chapter 21: API Integration Patterns](21-API-Integration-Patterns.md) — Connect your applications to the world.

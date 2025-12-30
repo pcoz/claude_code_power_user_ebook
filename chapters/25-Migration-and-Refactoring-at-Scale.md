@@ -241,3 +241,12 @@ Large refactoring is high-risk. Protect yourself:
 **Documentation.** Future you (and your team) will want to know what changed and why.
 
 Claude Code makes large refactoring possible. Your job is to make it safe.
+
+> **See Also:**
+> - [Large Codebase Navigation](24-Large-Codebase-Navigation.md) for understanding what to change
+> - [Git Worktrees for Parallel Development](15-Git-Worktrees-for-Parallel-Development.md) for safe experimentation
+> - [CI/CD Integration](26-CICD-Integration.md) for automated testing during migration
+
+---
+
+**Next:** [Chapter 26: CI/CD Integration](26-CICD-Integration.md) — Automate your development pipeline.

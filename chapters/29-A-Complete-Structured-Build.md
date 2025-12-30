@@ -272,3 +272,12 @@ At the end, you have:
 The structured approach took more upfront time but saved time overall—and produced a better result.
 
 This is the full power of Claude Code: not just generating code quickly, but building real software systematically.
+
+> **See Also:**
+> - [The Document Stack](28-The-Document-Stack.md) for understanding each document type
+> - [Full-Stack Applications](20-Full-Stack-Applications.md) for technical implementation patterns
+> - [The Development Loop](14-The-Development-Loop.md) for the iterative building process
+
+---
+
+**Next:** [Chapter 30: Mini Labs — Hands-On Practice](30-Mini-Labs-Hands-On-Practice.md) — Practice what you've learned with guided exercises.

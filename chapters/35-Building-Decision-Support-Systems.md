@@ -318,3 +318,12 @@ The pattern is the same:
 What methodologies do you use that others could benefit from?
 
 Those are things you can build now.
+
+> **See Also:**
+> - [EDA Analytical Framework](34-EDA-Analytical-Framework.md) for the framework used in this example
+> - [Full-Stack Applications](20-Full-Stack-Applications.md) for building complete web applications
+> - [A Complete Structured Build](29-A-Complete-Structured-Build.md) for structured development process
+
+---
+
+**Next:** [Chapter 36: Writing Claude Code Plugins](36-Writing-Claude-Code-Plugins.md) — Extend Claude Code with custom commands, skills, and more.

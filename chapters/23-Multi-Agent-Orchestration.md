@@ -390,3 +390,12 @@ then an implementer agent to build the solution.
 ```
 
 Add agents as you identify distinct roles that benefit from specialization. Orchestration power grows with practice.
+
+> **See Also:**
+> - [Subagents: Parallel Intelligence](11-Subagents-Parallel-Intelligence.md) for subagent fundamentals
+> - [Headless Mode and the SDK](13-Headless-Mode-and-the-SDK.md) for programmatic orchestration
+> - [Large Codebase Navigation](24-Large-Codebase-Navigation.md) for applying orchestration to large projects
+
+---
+
+**Next:** [Chapter 24: Large Codebase Navigation](24-Large-Codebase-Navigation.md) — Navigate and understand massive codebases.

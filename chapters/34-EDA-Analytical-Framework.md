@@ -258,3 +258,12 @@ The framework becomes a reusable tool for any situation.
 - Let analysis inform action
 
 The framework doesn't impose structure on reality. It reveals structure that's already there.
+
+> **See Also:**
+> - [Program Prompts](33-Program-Prompts.md) for encoding frameworks as prompts
+> - [Building Decision Support Systems](35-Building-Decision-Support-Systems.md) for applying EDA in software
+> - [Weaving AI with Classical Computing](32-Weaving-AI-With-Classical-Computing.md) for combining AI analysis with traditional systems
+
+---
+
+**Next:** [Chapter 35: Building Decision Support Systems](35-Building-Decision-Support-Systems.md) — Turn analytical frameworks into working software.

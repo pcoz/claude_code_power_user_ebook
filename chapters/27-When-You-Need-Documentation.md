@@ -161,3 +161,12 @@ If you can answer "yes" to these questions, you have enough documentation:
 If yes to all four, you're in good shape. If not, fill the gaps.
 
 Documentation is an investment. The cost is time now. The return is time saved later—often 10x or more.
+
+> **See Also:**
+> - [CLAUDE.md: Your Project's Brain](05-CLAUDE-md-Your-Projects-Brain.md) for essential project documentation
+> - [The Document Stack](28-The-Document-Stack.md) for comprehensive documentation patterns
+> - [A Complete Structured Build](29-A-Complete-Structured-Build.md) for documentation in practice
+
+---
+
+**Next:** [Chapter 28: The Document Stack](28-The-Document-Stack.md) — Layer your documentation for maximum clarity.

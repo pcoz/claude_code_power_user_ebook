@@ -245,3 +245,12 @@ APIs let you stand on shoulders of giants:
 Your code becomes an orchestrator, combining capabilities from specialized services into something new.
 
 This is modern software development: composing APIs rather than building everything from scratch.
+
+> **See Also:**
+> - [Full-Stack Applications](20-Full-Stack-Applications.md) for building complete apps with APIs
+> - [AI-Powered Features at Runtime](22-AI-Powered-Features-at-Runtime.md) for calling AI APIs from your code
+> - [Scripts and Automation](19-Scripts-and-Automation.md) for building quick API-calling scripts
+
+---
+
+**Next:** [Chapter 22: AI-Powered Features at Runtime](22-AI-Powered-Features-at-Runtime.md) — Add AI intelligence to your applications.

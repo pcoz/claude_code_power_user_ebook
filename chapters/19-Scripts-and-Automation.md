@@ -268,3 +268,11 @@ But don't over-engineer. Many scripts work perfectly as quick, simple tools.
 **Handle Ctrl+C.** Clean up gracefully on interrupt.
 
 Scripts are the building blocks of automation. Master them, and you'll solve problems in minutes that used to take hours.
+
+> **See Also:**
+> - [Headless Mode and the SDK](13-Headless-Mode-and-the-SDK.md) for running scripts programmatically
+> - [Mini Labs](30-Mini-Labs-Hands-On-Practice.md) for hands-on practice building scripts
+
+---
+
+**Next:** [Chapter 20: Full-Stack Applications](20-Full-Stack-Applications.md) — Build complete applications with frontend, backend, and database.

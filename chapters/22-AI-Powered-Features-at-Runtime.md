@@ -242,3 +242,12 @@ With API access to Claude, you can build:
 Your application becomes intelligent. Not just following rules, but understanding intent and generating appropriate responses.
 
 This is where the tools in this book come together: Claude Code helps you build software that itself uses Claude's intelligence at runtime.
+
+> **See Also:**
+> - [API Integration Patterns](21-API-Integration-Patterns.md) for general API integration techniques
+> - [Headless Mode and the SDK](13-Headless-Mode-and-the-SDK.md) for programmatic Claude Code usage
+> - [Multi-Agent Orchestration](23-Multi-Agent-Orchestration.md) for coordinating multiple AI agents
+
+---
+
+**Next:** [Chapter 23: Multi-Agent Orchestration](23-Multi-Agent-Orchestration.md) — Coordinate specialized agents for complex tasks.

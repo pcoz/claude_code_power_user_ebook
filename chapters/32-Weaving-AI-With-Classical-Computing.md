@@ -270,3 +270,12 @@ AI: flexible, contextual, capable for judging.
 Weave them so each does what it does best, with clean handoffs and appropriate validation at transitions.
 
 This is the architectural skill of modern software: knowing when precision matters and when judgment matters, and designing the handoffs that let both shine.
+
+> **See Also:**
+> - [Information Plus Understanding](31-Information-Plus-Understanding.md) for combining APIs with AI
+> - [Building Decision Support Systems](35-Building-Decision-Support-Systems.md) for practical applications
+> - [EDA Analytical Framework](34-EDA-Analytical-Framework.md) for exploratory analysis patterns
+
+---
+
+**Next:** [Chapter 33: Program Prompts](33-Program-Prompts.md) — Write prompts like programs for consistent results.
